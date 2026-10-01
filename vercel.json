@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/fnac.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/fnac", "destination": "/api/fnac" }
+  ]
+}
